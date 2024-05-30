@@ -32,7 +32,8 @@ The data is contained in three CSV files:
 - numpy
 
 ## Methodology
-# Data Import and Initial Exploration
+
+#Data Import and Initial Exploration
 
 Process:
 Import data from CSV files and database.
