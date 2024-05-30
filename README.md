@@ -31,21 +31,23 @@ The data is contained in three CSV files:
 - Seaborn
 - numpy
 
-##
-Data Import and Initial Exploration
+## Methodology
+# Data Import and Initial Exploration
 
 Process:
 Import data from CSV files and database.
 Load datasets into Pandas DataFrames.
 Objective: Get an initial understanding of the data structure and contents.
-Data Preprocessing
+
+#Data Preprocessing
 
 Steps:
 Merge datasets based on common keys (e.g., Sell ID, Date).
 Handle missing values and outliers.
 Convert data types if necessary (e.g., dates).
 Objective: Prepare the data for analysis and modeling.
-Exploratory Data Analysis (EDA)
+
+#Exploratory Data Analysis (EDA)
 
 Tools: Matplotlib, Seaborn for visualization.
 Steps:
@@ -53,19 +55,22 @@ Visualize sales trends over time.
 Analyze relationships between price, quantity, and other features.
 Identify patterns and anomalies.
 Objective: Gain insights from data to inform the modeling process.
-Price Elasticity Calculation
+
+#Price Elasticity Calculation
 
 Method:
 Use regression trees to model the relationship between price and quantity sold.
 Calculate price elasticity for each item.
 Objective: Determine how sensitive the demand for each item is to changes in price.
-Model Implementation
+
+#Model Implementation
 
 Steps:
 Develop a regression model using historical sales data.
 Train the model and evaluate its performance using metrics like R-squared.
 Objective: Create a reliable model to estimate price elasticity.
-Price Optimization
+
+#Price Optimization
 
 Method:
 Use the calculated price elasticities to identify optimal pricing points.
